@@ -241,7 +241,7 @@ export default function LandingPage() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "HERO.AI transformed my military leadership experience into a compelling story that landed me a senior project manager role at a Fortune 500 company."
+                "HERO.AI helped me translate my nuclear operations experience into data center expertise. Now I'm a Data Center Operations Manager at a major tech company, applying my military precision to civilian infrastructure."
               </p>
             </div>
             
@@ -258,7 +258,7 @@ export default function LandingPage() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "The AI translation helped me showcase my emergency management skills in a way that resonated with corporate employers."
+                "The AI translation perfectly mapped my intelligence analysis skills to data science. I'm now a Senior Data Scientist at a Fortune 100 company, using my analytical expertise to drive business decisions."
               </p>
             </div>
             
@@ -275,7 +275,7 @@ export default function LandingPage() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "Within weeks of using HERO.AI, I secured interviews with top tech companies and landed my dream role in corporate security."
+                "HERO.AI helped me leverage my law enforcement background into cybersecurity. Now I'm a Security Operations Manager at a leading tech firm, protecting digital assets like I once protected communities."
               </p>
             </div>
           </div>
