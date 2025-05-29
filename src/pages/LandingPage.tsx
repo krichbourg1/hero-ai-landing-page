@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { CheckCircle, ChevronRight, Brain, FileText, Download, ArrowRight } from 'lucide-react';
-import { saveEmail } from '../lib/supabase';
 // Import company logos
 import metaLogo from '../assets/images/Meta-Logo.png';
 import lockheedLogo from '../assets/images/lockheed martin.png';
@@ -17,7 +16,7 @@ export default function LandingPage() {
     setError('');
     
     try {
-      await saveEmail(email);
+      // For now, just set submitted to true without saving to database
       setSubmitted(true);
       console.log('Email submitted:', email);
     } catch (err) {
@@ -81,6 +80,9 @@ export default function LandingPage() {
                       <ArrowRight className="ml-2" size={24} />
                     </button>
                   </div>
+                  {error && (
+                    <p className="text-red-500 text-sm mt-2">{error}</p>
+                  )}
                   <p className="text-sm text-blue-200">
                     Join 10,000+ veterans and first responders already on the waitlist
                   </p>
