@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CheckCircle, ChevronRight, Brain, FileText, Download, ArrowRight } from 'lucide-react';
+import { saveEmail } from '../lib/supabase';
 // Import company logos
 import metaLogo from '../assets/images/Meta-Logo.png';
 import lockheedLogo from '../assets/images/lockheed martin.png';
@@ -16,7 +17,7 @@ export default function LandingPage() {
     setError('');
     
     try {
-      // For now, just set submitted to true without saving to database
+      await saveEmail(email);
       setSubmitted(true);
       console.log('Email submitted:', email);
     } catch (err) {
