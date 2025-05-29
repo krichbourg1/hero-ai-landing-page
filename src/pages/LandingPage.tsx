@@ -346,7 +346,7 @@ export default function LandingPage() {
             <div>
               <h4 className="text-white font-medium mb-4">Contact</h4>
               <p className="text-sm">Questions? Reach out to us at:</p>
-              <p className="text-sm mt-2">support@heroai.com</p>
+              <p className="text-sm mt-2">heroservices.ai@gmail.com</p>
             </div>
           </div>
           
