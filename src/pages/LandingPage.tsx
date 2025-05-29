@@ -237,7 +237,7 @@ export default function LandingPage() {
                 />
                 <div className="ml-4">
                   <h4 className="font-bold text-lg text-white">John M.</h4>
-                  <p className="text-blue-300">Former Marine Corps Captain</p>
+                  <p className="text-blue-300">Machinist Mate Nuclear, US Navy</p>
                 </div>
               </div>
               <p className="text-gray-300">
@@ -254,7 +254,7 @@ export default function LandingPage() {
                 />
                 <div className="ml-4">
                   <h4 className="font-bold text-lg text-white">Sarah K.</h4>
-                  <p className="text-blue-300">Former Fire Captain</p>
+                  <p className="text-blue-300">Army Intelligence Officer (O3)</p>
                 </div>
               </div>
               <p className="text-gray-300">
@@ -271,7 +271,7 @@ export default function LandingPage() {
                 />
                 <div className="ml-4">
                   <h4 className="font-bold text-lg text-white">Mike R.</h4>
-                  <p className="text-blue-300">Former Police Sergeant</p>
+                  <p className="text-blue-300">Retired PA State Trooper</p>
                 </div>
               </div>
               <p className="text-gray-300">
