@@ -18,6 +18,7 @@ export default function Navbar() {
         block: 'start',
       });
     }
+    setIsOpen(false);
   };
 
   return (
@@ -38,12 +39,13 @@ export default function Navbar() {
             >
               How It Works
             </a>
-            <Link 
-              to="/signup"
-              className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 transform hover:scale-105 hover:shadow-lg shadow-emerald-500/25"
+            <a 
+              href="#success-stories"
+              onClick={(e) => handleScroll(e, 'success-stories')}
+              className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200"
             >
-              Join Waitlist
-            </Link>
+              Success Stories
+            </a>
           </div>
           
           <div className="md:hidden flex items-center">
@@ -61,20 +63,17 @@ export default function Navbar() {
             <a
               href="#how-it-works"
               className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium transition-colors duration-200"
-              onClick={(e) => {
-                handleScroll(e, 'how-it-works');
-                setIsOpen(false);
-              }}
+              onClick={(e) => handleScroll(e, 'how-it-works')}
             >
               How It Works
             </a>
-            <Link
-              to="/signup"
-              className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white block px-3 py-2 rounded-lg text-base font-medium transition-all duration-200"
-              onClick={() => setIsOpen(false)}
+            <a
+              href="#success-stories"
+              className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium transition-colors duration-200"
+              onClick={(e) => handleScroll(e, 'success-stories')}
             >
-              Join Waitlist
-            </Link>
+              Success Stories
+            </a>
           </div>
         </div>
       )}
