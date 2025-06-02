@@ -39,13 +39,6 @@ export default function Navbar() {
             >
               How It Works
             </a>
-            <a 
-              href="#success-stories"
-              onClick={(e) => handleScroll(e, 'success-stories')}
-              className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200"
-            >
-              Success Stories
-            </a>
           </div>
           
           <div className="md:hidden flex items-center">
@@ -66,13 +59,6 @@ export default function Navbar() {
               onClick={(e) => handleScroll(e, 'how-it-works')}
             >
               How It Works
-            </a>
-            <a
-              href="#success-stories"
-              className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium transition-colors duration-200"
-              onClick={(e) => handleScroll(e, 'success-stories')}
-            >
-              Success Stories
             </a>
           </div>
         </div>
